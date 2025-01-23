@@ -8,16 +8,14 @@ import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
-    <BrowserRouter basename="netflix-clone">
-      <div>
-        <ToastContainer />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/player/:id" element={<Player />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+    <div>
+      <ToastContainer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/player/:id" element={<Player />} />
+      </Routes>
+    </div>
   );
 };
 
