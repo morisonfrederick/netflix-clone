@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
-    <BrowserRouter basename="Netflix-react">
+    <BrowserRouter basename="netflix-clone">
       <div>
         <ToastContainer />
         <Routes>
